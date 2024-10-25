@@ -1,5 +1,4 @@
 # Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
-# Real-Time Data Processing System for Weather Monitoring
 
 ## Overview
 This project implements a real-time data processing system for monitoring weather conditions in major Indian cities. It fetches real-time weather data from the OpenWeatherMap API, processes it, and provides insights on temperature, humidity, wind speed, and dominant weather conditions. The system also includes alerting features based on user-configurable temperature thresholds and visualizations of weather trends.
@@ -28,11 +27,10 @@ To clone this repository, run the following commands in your terminal:
 
 ```bash
 git clone https://github.com/Sonikashankar/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates.git
-cd Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
+cd Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates```
 
 2. Install Dependencies
 If you choose to run the application outside of Docker, install the required Python packages:
-
 bash
 Copy code
 pip install -r src/requirements.txt
