@@ -28,7 +28,7 @@ To clone this repository, run the following commands in your terminal:
 ```bash
 git clone https://github.com/Sonikashankar/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates.git
 cd Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates```
-
+##
 2. Install Dependencies
 If you choose to run the application outside of Docker, install the required Python packages:
 bash
