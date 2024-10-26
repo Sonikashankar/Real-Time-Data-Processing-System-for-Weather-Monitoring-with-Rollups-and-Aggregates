@@ -30,27 +30,21 @@ To clone this repository, run the following commands in your terminal:
 ```bash
 git clone https://github.com/Sonikashankar/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates.git
 cd Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
+```
 
 ## Install Dependencies
 If you choose to run the application outside of Docker, install the required Python packages using the following command:
 
 ```bash
 pip install -r src/requirements.txt
-
-
-
-## Install Dependencies
-- If you choose to run the application outside of Docker, install the required Python packages:
-
-```bash
-pip install -r src/requirements.txt
+```
 
 ## Configure Environment Variables
--Create a .env file in the src directory and add your OpenWeatherMap API key:
+Create a .env file in the src directory and add your OpenWeatherMap API key:
 
 ```env
-Copy code
 OPENWEATHER_API_KEY=65034db418bdca607af12535618e19c9
+```
 ## Note: Ensure that you replace the example API key with your own key when deploying the application.
 
 ## Running the Application
@@ -60,21 +54,22 @@ Set Up Environment Variables: Ensure your .env file is properly configured with 
 Run the Application: Execute the following command in the src directory:
 
 ```bash
-Copy code
 python src/app.py
+```
 This will start the application, fetching and processing weather data at the defined intervals.
 
 B. Running with Docker
 Build the Docker Container: To build the Docker image, run the following command in the root directory of the project:
 
 ```bash
-Copy code
 docker build -t weather_monitoring .
+```
 Run the Docker Container: To run the Docker container, use the following command, ensuring to set your OpenWeatherMap API key as an environment variable:
 
 ```bash
 Copy code
 docker run -d --env OPENWEATHER_API_KEY=65034db418bdca607af12535618e19c9 weather_monitoring
+```
 ## Application Structure
 src/app.py: The main application file responsible for fetching, processing, and storing weather data.
 src/database.py: Handles database sessions and connections.
